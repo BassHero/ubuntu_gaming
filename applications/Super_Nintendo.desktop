@@ -4,6 +4,6 @@ Name=Super Nintendo
 Comment=Emulador de Super Nintendo
 Type=Application
 Exec=/home/$USER/Super_Nintendo.sh
-Icon=/mnt/4_TB/Super Nintendo/bsnes.png
+Icon=/home/$USER/Pictures/icons/bsnes.png
 
 

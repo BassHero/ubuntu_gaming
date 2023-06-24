@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /mnt/4_TB/Dreamcast/redream
+cd /home/$USER/Games/redream
 ./redream
 

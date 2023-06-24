@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /mnt/1_TB/'Super Nintendo'/bsnes-nightly
+cd /home/$USER/Games/bsnes-nightly
 ./bsnes
 

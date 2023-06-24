@@ -2,7 +2,7 @@
 Name=Dreamcast
 Comment=Redream, Emulator
 Exec=./dreamcast.sh
-Icon=/mnt/4_TB/Dreamcast/icons/icon96r.png
+Icon=/home/$USER/Pictures/icons/redream.png
 Terminal=false
 Type=Application
 Categories=Game;

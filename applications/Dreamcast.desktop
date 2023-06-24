@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Dreamcast
+Comment=Redream, Emulator
+Exec=./dreamcast.sh
+Icon=/mnt/4_TB/Dreamcast/icons/icon96r.png
+Terminal=false
+Type=Application
+Categories=Game;

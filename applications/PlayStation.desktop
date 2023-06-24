@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PlayStation
+Comment=Duckstation, Emulator
+Exec=./DuckStation
+Icon=/mnt/4_TB/PlayStation/icons/icon96.png
+Terminal=false
+Type=Application
+Categories=Game;

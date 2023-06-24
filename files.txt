@@ -1,0 +1,36 @@
+# bsnes
+https://github.com/bsnes-emu/bsnes/archive/refs/tags/v115.tar.gz
+http://ftp.us.debian.org/debian/pool/main/g/gtksourceview2/libgtksourceview2.0-0_2.10.5-3_amd64.deb 
+http://ftp.us.debian.org/debian/pool/main/g/gtksourceview2/libgtksourceview2.0-common_2.10.5-3_all.deb
+
+# DuckStation
+https://github.com/stenzek/duckstation/releases/download/legacy/duckstation-qt-x64.AppImage
+
+# Gamemode
+http://ftp.us.debian.org/debian/pool/main/g/gamemode/gamemode_1.7-2+b1_amd64.deb
+http://ftp.us.debian.org/debian/pool/main/g/gamemode/gamemode-daemon_1.7-2+b1_amd64.deb
+http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemode0_1.7-2+b1_amd64.deb
+http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemodeauto0_1.7-2+b1_amd64.deb
+http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemode0_1.7-2+b1_i386.deb
+http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemodeauto0_1.7-2+b1_i386.deb
+
+# GE-Proton e lutris-GE
+https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-4/GE-Proton8-4.tar.gz 
+https://github.com/GloriousEggroll/wine-ge-custom/releases/download/GE-Proton8-8/wine-lutris-GE-Proton8-8-x86_64.tar.xz
+	
+# MangoHud
+https://github.com/flightlessmango/MangoHud/releases/download/v0.6.9-1/MangoHud-0.6.9.1.r0.g7f94562.tar.gz
+
+# Mednafen
+https://mednafen.github.io/releases/files/mednafen-1.31.0-UNSTABLE.tar.xz
+	
+# Redream
+https://redream.io/download/redream.x86_64-linux-v1.5.0-1075-g5d636e5.tar.gz
+	
+	
+	
+	
+	https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+	
+	
+	git clone https://github.com/Ta180m/zenpower3.git

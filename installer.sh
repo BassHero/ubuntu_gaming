@@ -2,7 +2,7 @@
 
 # 1. Download necessary files.
 	
-	cd /home/$USER/Downloads/
+	cd ~/Downloads/
 	git clone https://github.com/BassHero/ubuntu_gaming.git
 	cd ubuntu_gaming
 	git clone https://github.com/Ta180m/zenpower3.git
@@ -13,10 +13,10 @@
 	mv gamemode* libgamemode* Gamemode	
 	file-roller -h *.tar.*
 	cd applications
-	cp *.desktop /home/$USER/.local/share/applications
-	cd /home/$USER/Downloads/ubuntu_gaming/scripts/
-	cp *.sh /home/$USER/
-	cd /home/$USER/Downloads/ubuntu_gaming/
+	cp *.desktop ~/.local/share/applications
+	cd ~/Downloads/ubuntu_gaming/scripts/
+	cp *.sh ~
+	cd ~/Downloads/ubuntu_gaming/
 	
 # 2. Add repositories.
 	
@@ -26,20 +26,22 @@
 	sudo add-apt-repository ppa:polychromatic/stable -y
 	sudo apt update
 
-# 3. Installing programs.
+# 3. Installing libs and programs.
 	
-	sudo apt install synaptic antimicro audacity build-essential cmake cpu-x ffmpeg gimp gparted gscan2pdf handbrake jstest-gtk kdenlive hexchat libao-dev libayatana-appindicator3-1 libasound2-dev libcanberra-gtk-module libcairo2-dev libflac-dev libgtk2.0-dev libhidapi-hidraw0 libopenal-dev libpulse-dev libsdl2-dev libsfml-network2.5 libsndfile1-dev libudev-dev libxv-dev lutris mesa-common-dev mkvtoolnix-gui obs-studio openrazer-meta pdfarranger pkg-config polychromatic python2 python3-pip python-is-python3 steam stressapptest ttf-mscorefonts-installer vlc webp-pixbuf-loader zip zlib1g-dev -y	
+	sudo apt install libao-dev libasound2-dev libayatana-appindicator3-1 libcanberra-gtk-module libcairo2-dev libflac-dev libgtk2.0-dev libhidapi-hidraw0 libopenal-dev libpulse-dev libsdl2-dev libsfml-network2.5 libsndfile1-dev libudev-dev libxv-dev -y	
+	
+	sudo apt install synaptic antimicro audacity build-essential cmake cpu-x ffmpeg gimp gparted gscan2pdf handbrake jstest-gtk kdenlive hexchat  lutris mesa-common-dev mkvtoolnix-gui obs-studio openrazer-meta pdfarranger pkg-config polychromatic python2 python3-pip python-is-python3 steam stressapptest ttf-mscorefonts-installer vlc webp-pixbuf-loader zip zlib1g-dev -y	
 	steam	
 	
 # 4. Installing the *.deb files.
 
 	sudo dpkg -i google-chrome-stable_current_amd64.deb
-	cd /home/$USER/Downloads/ubuntu_gaming/bsnes
+	cd ~/Downloads/ubuntu_gaming/bsnes
 	sudo dpkg -i *.deb
 	sudo apt remove gamemode -y
-	cd /home/$USER/Downloads/ubuntu_gaming/Gamemode
+	cd ~/Downloads/ubuntu_gaming/Gamemode
 	sudo dpkg -i *.deb
-	cd /home/$USER/Downloads/ubuntu_gaming/
+	cd ~/Downloads/ubuntu_gaming/
 	
 # 5. Installing Wine Staging https://wiki.winehq.org/Ubuntu	
 	
@@ -56,28 +58,28 @@
 	
 # 6. Installing GE-Proton and lutris-GE	
 	
-	mv GE-Proton8-4 /home/$USER/.steam/debian-installation/compatibilitytools.d/
-	mv lutris-GE-Proton8-8-x86_64 /home/$USER/.local/share/lutris/runners/wine/
+	mv GE-Proton8-4 ~/.steam/debian-installation/compatibilitytools.d/
+	mv lutris-GE-Proton8-8-x86_64 ~/.local/share/lutris/runners/wine/
 
 # 7. Installing Emulators DuckStation, Redream, Mednafen and BSNES
 
-	cd /home/$USER/Games/
+	cd ~/Games/
 	mkdir bsnes redream
 	
 	# DuckStation
 	
-	cd /home/$USER/Downloads/ubuntu_gaming/
+	cd ~/Downloads/ubuntu_gaming/
 	chmod 777 duckstation-qt-x64.AppImage
 	cp duckstation-qt-x64.AppImage ~
 	cd ~
 	./duckstation-qt-x64.AppImage
-	cd /home/$USER/Downloads/ubuntu_gaming/bios/
-	cp *.BIN /home/renato/.local/share/duckstation/bios/
+	cd ~/Downloads/ubuntu_gaming/bios/
+	cp *.BIN ~/.local/share/duckstation/bios/
 	
 	# Redream
 	
 	cd ..
-	cp redream /home/$USER/Games/redream/
+	cp redream ~/Games/redream/
 	
 	# Mednafen
 	
@@ -91,10 +93,10 @@
 		# Detalhe para as bios do sega saturn e PS1 no diretóroi/ /home/$USER/.mednafen/firmware
 		# cp .mednafen /home/$USER
 		
-	cd /home/$USER/Downloads/ubuntu_gaming/games/
+	cd ~/Downloads/ubuntu_gaming/games/
 	mednafen -sound.driver sdl -sms.shader goat -sms.stretch aspect -sms.fm 1 -sms.territory domestic 'Phantasy Star (pt-BR) [!].sms'
-	cd /home/$USER/Downloads/ubuntu_gaming/firmware/	
-	cp *.* /home/$USER/.mednafen/firmware/
+	cd ~/Downloads/ubuntu_gaming/firmware/	
+	cp *.* ~/.mednafen/firmware/
 	
 		# Primeira vez que abrir o emulador pode ser necessário mudar o driver de som pra sdl com o comando abaixo sem o #
 		# mednafen -sound.driver sdl nomedarom.zip	
@@ -105,7 +107,7 @@
 	
 	# BSNES
 	
-	cd /home/$USER/Downloads/ubuntu_gaming/bsnes/
+	cd ~/Downloads/ubuntu_gaming/bsnes/
 	file-roller -h v115.tar.gz
 	cd bsnes-115
 	make -C bsnes local=false
@@ -117,7 +119,7 @@
 	cp -a shaders bsnes-nightly/Shaders
 	cp -a GPLv3.txt bsnes-nightly
 	zip -r bsnes-nightly.zip bsnes-nightly
-	cp -r bsnes-nightly /home/$USER/Games
+	cp -r bsnes-nightly ~/Games
 	
 # 8. Installing yt-dlp.
 
